@@ -1,0 +1,20 @@
+laravel:
+	criando um projeto
+	composer create-project --prefer-dist laravel/laravel "nome do projeto" "versão do laravel exemplo 5.5.*"
+	rodar:
+	php artisan serve
+	login:
+	php artisan make:auth
+	gerar as tabelas do banco:
+	php artisan migrate
+	controller:
+	php artisan make:controller pasta/nome_controller --resource
+
+
+vue:
+	instalar o node: 
+	npm i
+	rodar o vue:
+	npm run watch
+	deu erro executa:
+	npm rebuild node-sass
